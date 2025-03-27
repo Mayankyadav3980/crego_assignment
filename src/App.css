@@ -1,4 +1,17 @@
-#root {
+.container{
+  width: 60vw;
+  min-width: 300px;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +52,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
