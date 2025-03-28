@@ -3,7 +3,6 @@ export const businessDetailsSchema = {
   type: "object",
   properties: {
     name: {
-      // description: "Name of the Business",
       title: "Business name",
       type: "string",
     },
@@ -18,7 +17,6 @@ export const businessDetailsSchema = {
       title: "Director",
       type: "array",
       items: {
-        // title: "Director",
         type: "object",
         properties: {
           name: {
@@ -32,7 +30,6 @@ export const businessDetailsSchema = {
             pattern: "^([A-Z]{5}[0-9]{4}[A-Z]{1})$",
           },
           tags: {
-            // description: "Tags",
             title: "Tags",
             type: "array",
             items: {
